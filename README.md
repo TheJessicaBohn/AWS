@@ -16,14 +16,14 @@
   - **U2 Security Key:** É um token físico (USB) em contato direto com o computador. Ele é um padrão opensource, criado pela FIDOAlliance.
   - **MFA TOTP :** É um token de hardware gera um código numérico de seis dígitos com base no algoritmo de senha de uso único com marcação temporal (TOTP).
   - ### Configurando um MFA:
-    - Vá em Find Services, e busque por: "IAM"
-    - Ao entrar na tela "Welcome to Identify and Access Managemente" clique em :"Manage Password Policy"
-    - Após clique em: "Change password policy"
+    - Vá em Find Services, e busque por: **IAM**
+    - Ao entrar na tela **Welcome to Identify and Access Managemente** clique em : **Manage Password Policy**
+    - Após clique em: **Change password policy**
     - E então altere o ambiente de acordo com a necessidade de segurança.
-    - Ao voltar para a tela "Welcome to Identify and Access Managemente", clique em "Activate MFA on your root account", e depois em "Manage MFA"
-    - Ao entrar na tela "Your Security Credentials", clique em "Multi-factor authentication (MFA) e clique em "Activate MFA".
-    - Ao clicar nessa opção ele vai abrir uma modal "Manage MFA device", com as opções de tipos de MFA previamente apresentas. Nesse caso vou utilizar a MFA virtual pois é a que eu tenho acesso nesse momento. Clique em "Continue";
-    - Ele vai abrir uma tela chamada "Set up virtual MFA device", clique em "Show QR Code", será aperto um QR Code para ser escaneado (tire print pois caso você perca seu dispositivo, você conseguirá se conectar novamente), e logo abixo terão dois campos de "MFA code 1" e "MFA code 2", após escaneado os dois campos deverão ser preenchidos com os códigos que vão aparecer no dispositivo que escaneou o QR Code. Após isso clique em "Assing MFA".
+    - Ao voltar para a tela **Welcome to Identify and Access Managemente**, clique em **Activate MFA on your root account**, e depois em **Manage MFA**
+    - Ao entrar na tela **Your Security Credentials**, clique em **Multi-factor authentication (MFA)** e clique em **Activate MFA**.
+    - Ao clicar nessa opção ele vai abrir uma modal **Manage MFA device**, com as opções de tipos de MFA previamente apresentas. Nesse caso vou utilizar a MFA virtual pois é a que eu tenho acesso nesse momento. Clique em **Continue**;
+    - Ele vai abrir uma tela chamada **Set up virtual MFA device**, clique em **Show QR Code**, será aperto um QR Code para ser escaneado (tire print pois caso você perca seu dispositivo, você conseguirá se conectar novamente), e logo abixo terão dois campos de **MFA code 1** e **MFA code 2**, após escaneado os dois campos deverão ser preenchidos com os códigos que vão aparecer no dispositivo que escaneou o QR Code. Após isso clique em **Assing MFA**.
     - Agora só possivel entrar na conta que foi feita a ativação do MFA, se for aceito pelo Multi-factor authentication.
 ## Links importantes
  - [Documentação oficial AWS](https://docs.aws.amazon.com/)
